@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Coding Drills: J1</title>
+    </head>
+    <body>
+        <header>    
+            <h1>Tournament Selection</h1>
+        </header>
+        <main>
+            <div>
+                <h2>Please enter your game result (W|L)</h2>
+                <!-- Tip: You don't need to use a form -->
+                <form method="POST">
+                    <div>
+                        <label for="game1">Game 1: </label>
+                        <input id="game1">
+                    </div>
+                    <div>
+                        <label for="game2">Game 2: </label>
+                        <input id="game2">
+                    </div>
+                    <div>
+                        <label for="game3">Game 3: </label>
+                        <input id="game3">
+                    </div>
+                    <div>
+                        <label for="game4">Game 4: </label>
+                        <input id="game4">
+                    </div>
+                    <div>
+                        <label for="game5">Game 5: </label>
+                        <input id="game5">
+                    </div>
+                    <div>
+                        <label for="game6">Game 6: </label>
+                        <input id="game6">
+                    </div>
+                    <div>
+                        <button id="submit" type="button" onclick="processResult()">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div id="result"></div>
+            <script src="index.js"></script>
+        </main>
+        <footer>
+            <p>Canadian Computing Competition (CCC) and Canadian Computing Olympiad (CCO)</p>
+            <p>Problem from 2016</p>
+            <p>Start Time: 1:48PM</p>
+            <p>End Time: 2:23PM</p>
+        </footer>
+    </body>
+    
+</html>
